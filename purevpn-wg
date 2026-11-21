@@ -163,7 +163,8 @@ handle_2fa() {
     dbg "2FA passo $i: action=${action%%\?*} campi=$(grep -oE 'name="[^"]+"' "$page" | sort -u | tr '\n' ' ')"
     body="$(mktmp)"; (IFS='&'; printf '%s' "${pairs[*]}") >"$body"
     case "$action" in
-      http*) ;;
+      "$AUTH_BASE"/*) ;;
+      http*) dbg "form 2FA verso host non atteso: interrotto"; return 1 ;;
       /*)    action="$AUTH_BASE$action" ;;
       *)     action="$AUTH_BASE/oauth2/$action" ;;   # relativo a /oauth2/two-factor
     esac
@@ -278,7 +279,7 @@ fetch_conf() {  # scrive $NEW_CONF
   fi
   grep -q '^\[Interface\]' "$f" && grep -q '^\[Peer\]' "$f" || die "config ricevuta non valida"
   # Il tunnel è gestito da NM: niente hook di wg-quick.
-  sed -i -E '/^(PreUp|PostUp|PreDown|PostDown)/d' "$f"
+  sed -i -E '/^[[:space:]]*(PreUp|PostUp|PreDown|PostDown)[[:space:]]*=/Id' "$f"
 }
 
 # ---------- NetworkManager ----------
