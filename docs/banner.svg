@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">PureVPN AutoConnect</title>
+  <desc id="d">Scudo con lucchetto e il testo PureVPN AutoConnect: WireGuard, NetworkManager, kill switch per Linux</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#14263f"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3a6"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <!-- tunnel -->
+  <g fill="none" stroke="#22d3a6" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="6 10">
+    <path d="M0 250 C 200 250, 260 180, 420 180"/>
+    <path d="M0 290 C 220 290, 280 200, 420 200"/>
+  </g>
+  <g fill="#22d3a6">
+    <circle cx="90" cy="250" r="5"/>
+    <circle cx="150" cy="290" r="5" fill-opacity="0.7"/>
+    <circle cx="260" cy="205" r="4" fill-opacity="0.8"/>
+  </g>
+
+  <!-- scudo -->
+  <g transform="translate(250 50)">
+    <path d="M100 0 L200 36 V130 C200 205 156 252 100 276 C44 252 0 205 0 130 V36 Z"
+          fill="url(#shield)"/>
+    <path d="M100 18 L184 48 V130 C184 194 148 234 100 256 C52 234 16 194 16 130 V48 Z"
+          fill="#0b1220" fill-opacity="0.35"/>
+    <!-- lucchetto -->
+    <rect x="62" y="116" width="76" height="62" rx="10" fill="#ffffff"/>
+    <path d="M78 116 V96 a22 22 0 0 1 44 0 V116" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="100" cy="143" r="8" fill="#0b1220"/>
+    <rect x="96" y="146" width="8" height="18" rx="3" fill="#0b1220"/>
+  </g>
+
+  <!-- testo -->
+  <text x="520" y="150" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="68" font-weight="800" fill="#ffffff">PureVPN</text>
+  <text x="520" y="222" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="68" font-weight="800" fill="#22d3a6">AutoConnect</text>
+  <text x="522" y="268" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="26" fill="#9fb3c8">WireGuard · NetworkManager · Kill switch · Linux</text>
+  <text x="522" y="308" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace"
+        font-size="22" fill="#6b829c">$ pvpn connect</text>
+</svg>

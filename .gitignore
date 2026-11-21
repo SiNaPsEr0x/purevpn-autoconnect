@@ -1,0 +1,11 @@
+# Niente segreti o dati locali nel repository
+credentials
+*.key
+*.pub
+client.*
+fa_token
+cookies.txt
+purevpn.conf
+*.conf
+tmp.*
+HANDOFF.md
