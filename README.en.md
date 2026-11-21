@@ -6,7 +6,7 @@
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=22d3a6"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/SiNaPsEr0x/purevpn-autoconnect/total?style=for-the-badge&logo=github&label=download&color=0ea5e9"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=6b829c"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Unlicense-lightgrey?style=for-the-badge"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-PolyForm%20NonCommercial-orange?style=for-the-badge"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&color=14263f"></a>
 </p>
 
@@ -130,4 +130,6 @@ The login and generation flow was reconstructed by studying the behaviour docume
 
 ## License
 
-**Public domain ([Unlicense](LICENSE))**: you can copy, modify, publish and use this software for any purpose, including commercial, without asking permission. The software is provided "as is", without warranty of any kind.
+**[PolyForm Noncommercial 1.0.0](LICENSE)**: you may use, copy, modify and share this software for **noncommercial** purposes (personal use, study, research, hobby, nonprofit organizations). **Commercial use is not allowed** without an agreement with the author. Anyone redistributing the software must keep the `LICENSE` file and the copyright notice. The software is provided "as is", without warranty of any kind.
+
+> Note: this is not an "open source" licence in the strict sense (the OSI definition does not allow restrictions on commercial use). Versions published before the licence change (commits under the Unlicense) remain available under the terms they were released with.

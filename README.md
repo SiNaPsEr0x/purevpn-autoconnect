@@ -6,7 +6,7 @@
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/stargazers"><img alt="Stelle" src="https://img.shields.io/github/stars/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=22d3a6"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img alt="Download" src="https://img.shields.io/github/downloads/SiNaPsEr0x/purevpn-autoconnect/total?style=for-the-badge&logo=github&label=download&color=0ea5e9"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/network/members"><img alt="Fork" src="https://img.shields.io/github/forks/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=6b829c"></a>
-  <a href="LICENSE"><img alt="Licenza" src="https://img.shields.io/badge/licenza-Unlicense-lightgrey?style=for-the-badge"></a>
+  <a href="LICENSE"><img alt="Licenza" src="https://img.shields.io/badge/licenza-PolyForm%20NonCommercial-orange?style=for-the-badge"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/commits/main"><img alt="Ultimo commit" src="https://img.shields.io/github/last-commit/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&color=14263f"></a>
 </p>
 
@@ -130,4 +130,6 @@ Il flusso di login e generazione è stato ricostruito studiando il comportamento
 
 ## Licenza
 
-**Pubblico dominio ([Unlicense](LICENSE))**: puoi copiare, modificare, pubblicare e usare questo software per qualsiasi scopo, anche commerciale, senza chiedere il permesso. Il software è fornito "così com'è", senza alcuna garanzia.
+**[PolyForm Noncommercial 1.0.0](LICENSE)**: puoi usare, copiare, modificare e condividere questo software per scopi **non commerciali** (uso personale, studio, ricerca, hobby, organizzazioni senza scopo di lucro). **L'uso commerciale non è consentito** senza un accordo con l'autore. Chi ridistribuisce il software deve mantenere il file `LICENSE` e l'avviso di copyright. Il software è fornito "così com'è", senza alcuna garanzia.
+
+> Nota: non è una licenza "open source" in senso stretto (la definizione OSI non ammette limiti all'uso commerciale). Le versioni pubblicate prima del cambio di licenza (commit con Unlicense) restano disponibili con i termini con cui erano state rilasciate.
