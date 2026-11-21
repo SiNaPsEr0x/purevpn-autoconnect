@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Statistiche del repository: aggiorna i CSV e rigenera i grafici a barre (SVG).
+"""Statistiche download: aggiorna il CSV e rigenera il grafico a barre (SVG).
 
   make_chart.py downloads TOTALE        totale cumulato dei download delle release
-  make_chart.py clones FILE_JSON        risposta di GET /repos/.../traffic/clones
 
 I CSV sono in docs/stats/, i grafici in docs/. Solo libreria standard.
 """
-import csv, datetime, json, os, sys
+import csv, datetime, os, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 STATS = os.path.join(ROOT, "docs", "stats")
@@ -80,30 +79,8 @@ def downloads(total):
     print(f"download: totale {total}, {len(rows)} giorni")
 
 
-def clones(json_path):
-    with open(json_path) as f:
-        api = json.load(f)
-    csv_path = os.path.join(STATS, "clones.csv")
-    rows = read_csv(csv_path, 3)          # data -> [count, uniques]
-    for c in api.get("clones", []):
-        d = c["timestamp"][:10]
-        old = rows.get(d, [0, 0])
-        rows[d] = [max(old[0], c["count"]), max(old[1], c["uniques"])]  # l'API tiene solo 14 giorni
-    write_csv(csv_path, ["data", "clone", "unici"], rows)
-    run, series = 0, []
-    for d in sorted(rows):
-        run += rows[d][0]
-        series.append((d, run))
-    if not series:
-        series = [(datetime.date.today().isoformat(), 0)]
-    render(os.path.join(DOCS, "clones.svg"), "Git clone cumulati", run, series, f"ultimi {DAYS} giorni")
-    print(f"clone: totale {run}, {len(rows)} giorni")
-
-
 if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == "downloads":
         downloads(int(sys.argv[2]))
-    elif len(sys.argv) == 3 and sys.argv[1] == "clones":
-        clones(sys.argv[2])
     else:
         sys.exit(__doc__)
