@@ -4,10 +4,13 @@
 
 <p align="center">
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=22d3a6"></a>
-  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/SiNaPsEr0x/purevpn-autoconnect/total?style=for-the-badge&logo=github&label=download&color=0ea5e9"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=6b829c"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-PolyForm%20NonCommercial-orange?style=for-the-badge"></a>
   <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&color=14263f"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img src="docs/downloads.svg" alt="Cumulative downloads (updated daily)" width="640"></a>
 </p>
 
 <p align="center">
