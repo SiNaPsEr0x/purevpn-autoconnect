@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img src="docs/downloads.svg" alt="Download cumulati (aggiornato ogni giorno)" width="640"></a>
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img src="docs/downloads.svg" alt="Download cumulati (aggiornato ogni giorno)" width="49%"></a>
+  <img src="docs/clones.svg" alt="Git clone cumulati (aggiornato ogni giorno)" width="49%">
 </p>
 
 <p align="center">
