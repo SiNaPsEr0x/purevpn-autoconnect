@@ -2,6 +2,18 @@
   <img src="docs/banner.svg" alt="PureVPN AutoConnect" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/stargazers"><img alt="Stelle" src="https://img.shields.io/github/stars/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=22d3a6"></a>
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/releases"><img alt="Download" src="https://img.shields.io/github/downloads/SiNaPsEr0x/purevpn-autoconnect/total?style=for-the-badge&logo=github&label=download&color=0ea5e9"></a>
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/network/members"><img alt="Fork" src="https://img.shields.io/github/forks/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&logo=github&color=6b829c"></a>
+  <a href="LICENSE"><img alt="Licenza" src="https://img.shields.io/badge/licenza-Unlicense-lightgrey?style=for-the-badge"></a>
+  <a href="https://github.com/SiNaPsEr0x/purevpn-autoconnect/commits/main"><img alt="Ultimo commit" src="https://img.shields.io/github/last-commit/SiNaPsEr0x/purevpn-autoconnect?style=for-the-badge&color=14263f"></a>
+</p>
+
+<p align="center">
+  🇮🇹 <b>Italiano</b> &nbsp;·&nbsp; <a href="README.en.md">🇬🇧 English</a>
+</p>
+
 # PureVPN AutoConnect
 
 **Un solo script Bash che collega il tuo Linux a PureVPN con WireGuard: fa il login da solo, scarica la configurazione, la importa in NetworkManager, accende il tunnel e ti protegge con un kill switch.**
@@ -37,7 +49,7 @@ cd purevpn-autoconnect
 ./purevpn-wg setup
 ```
 
-`setup` ti chiede email e password PureVPN, genera le chiavi e crea l'alias **`pvpn`** nella tua shell. Se le credenziali ci sono già, non le richiede: completa solo ciò che manca (chiavi, configurazione, alias). Apri un nuovo terminale (oppure `source ~/.bashrc`) e sei pronto.
+`setup` ti chiede email e password PureVPN, genera le chiavi e crea l'alias **`pvpn`** (e il comando `~/.local/bin/pvpn`). Se le credenziali ci sono già, non le richiede: completa solo ciò che manca (chiavi, configurazione, alias). Apri un nuovo terminale (oppure `source ~/.bashrc`) e sei pronto.
 
 PureVPN protegge il sito con Cloudflare, che blocca `curl` normale. Se il login fallisce con un errore di blocco, esegui una volta:
 
