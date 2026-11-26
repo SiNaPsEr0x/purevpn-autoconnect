@@ -15,6 +15,7 @@
   <rect x="83.1" y="92.0" width="15.8" height="114.0" rx="2.5" fill="url(#g)" opacity="1"><title>2026-11-23: 6</title></rect>
   <rect x="105.1" y="92.0" width="15.8" height="114.0" rx="2.5" fill="url(#g)" opacity="1"><title>2026-11-24: 6</title></rect>
   <rect x="127.1" y="92.0" width="15.8" height="114.0" rx="2.5" fill="url(#g)" opacity="1"><title>2026-11-25: 6</title></rect>
+  <rect x="149.1" y="92.0" width="15.8" height="114.0" rx="2.5" fill="url(#g)" opacity="1"><title>2026-11-26: 6</title></rect>
   <text x="36" y="230" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#6b829c">2026-11-21</text>
-  <text x="696" y="230" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#6b829c">2026-11-25</text>
+  <text x="696" y="230" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#6b829c">2026-11-26</text>
 </svg>
